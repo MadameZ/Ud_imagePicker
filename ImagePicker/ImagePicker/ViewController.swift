@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(_ sender: Any) {
        
-        /// La camera n'est pas présente sur tous les appareil
+        /// La camera n'est pas présente sur tous les appareils
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
              takePicture(source: .camera)
         } else {
